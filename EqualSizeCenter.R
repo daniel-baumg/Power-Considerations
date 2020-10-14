@@ -35,7 +35,7 @@ n <- 10
     print(i)
     # generate samples from Cauchy Distribution
     x <- rcauchy(n)
-    y <-rcauchy(n)+1
+    y <- rcauchy(n)+1
   
     times_alt <- c(x, y)
     delta <- rep(1, 2*n)
@@ -103,7 +103,7 @@ n <- 20
       print(i)
       # generate samples from Cauchy Distribution
       x <- rcauchy(n)
-      y <-rcauchy(n)+1
+      y <- rcauchy(n)+1
       
       times_alt <- c(x, y)
       delta <- rep(1, 2*n)
@@ -137,7 +137,7 @@ n <- 20
       
       # generate samples from Laplace Distribution
       x <- rlaplace(n)
-      y <-rlaplace(n)+1
+      y <- rlaplace(n)+1
       
       times_alt <- c(x, y)
       delta <- rep(1, 2*n)
@@ -171,7 +171,7 @@ n <- 30
       print(i)
       # generate samples from Cauchy Distribution
       x <- rcauchy(n)
-      y <-rcauchy(n)+1
+      y <- rcauchy(n)+1
       
       times_alt <- c(x, y)
       delta <- rep(1, 2*n)
@@ -188,7 +188,7 @@ n <- 30
       
       # generate samples from Normal Distribution
       x <- rnorm(n)
-      y <-rnorm(n)+1
+      y <- rnorm(n)+1
       
       times_alt <- c(x, y)
       delta <- rep(1, 2*n)
@@ -205,7 +205,7 @@ n <- 30
       
       # generate samples from Laplace Distribution
       x <- rlaplace(n)
-      y <-rlaplace(n)+1
+      y <- rlaplace(n)+1
       
       times_alt <- c(x, y)
       delta <- rep(1, 2*n)
@@ -256,7 +256,7 @@ n <- 40
       
       # generate samples from Normal Distribution
       x <- rnorm(n)
-      y <-rnorm(n)+1
+      y <- rnorm(n)+1
       
       times_alt <- c(x, y)
       delta <- rep(1, 2*n)
@@ -273,7 +273,7 @@ n <- 40
       
       # generate samples from Laplace Distribution
       x <- rlaplace(n)
-      y <-rlaplace(n)+1
+      y <- rlaplace(n)+1
       
       times_alt <- c(x, y)
       delta <- rep(1, 2*n)
