@@ -188,7 +188,7 @@ n <- 30
     
     # generate samples from Normal Distribution
     x <- rnorm(n)
-    y <-rnorm(n)*2
+    y <- rnorm(n)*2
     
     times_alt <- c(x, y)
     delta <- rep(1, 2*n)
@@ -205,7 +205,7 @@ n <- 30
     
     # generate samples from Laplace Distribution
     x <- rlaplace(n)
-    y <-rlaplace(n)*2
+    y <- rlaplace(n)*2
     
     times_alt <- c(x, y)
     delta <- rep(1, 2*n)
