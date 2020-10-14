@@ -239,7 +239,7 @@ n <- 40
       print(i)
       # generate samples from Cauchy Distribution
       x <- rcauchy(n)
-      y <-rcauchy(n)+1
+      y <- rcauchy(n)+1
       
       times_alt <- c(x, y)
       delta <- rep(1, 2*n)
